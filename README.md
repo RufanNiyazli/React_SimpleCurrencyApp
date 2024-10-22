@@ -1,4 +1,6 @@
+Əlbəttə, "Hansı Modullar Yüklənməli" adlı yeni bir başlıq əlavə edək və lazım olan modulları sadalayaq.
 
+---
 
 ## **Valyuta Çevirici Tətbiqi** 💱
 
@@ -15,8 +17,8 @@ Bu layihə **React** və **Vite** istifadə edilərək yaradılmış sadə bir *
 │   ├── main.jsx      # Tətbiqin giriş nöqtəsi
 │   └── components    # Komponentlər qovluğu
 │       └── CurrencyConverter.jsx  # Valyuta çevirici komponenti
-|   └──images         # Şəkil yerləşir  
-|      └──currency.jpeg
+|   └──images
+|      └── currency.jpeg
 └── README.md         # Layihə haqqında məlumat
 ```
 
@@ -51,6 +53,27 @@ Bu əmr tətbiqi `http://localhost:5173/` ünvanında işlədəcək.
 
 ---
 
+### **Hansı Modullar Yüklənməlidir?** 🛠️
+
+Layihəni düzgün işlətmək üçün aşağıdakı modulları quraşdırın:
+
+1. **Vite**: Layihə serverini idarə etmək üçün.
+   ```bash
+   npm install vite@latest
+   ```
+
+2. **Axios**: API çağırışlarını etmək üçün.
+   ```bash
+   npm install axios
+   ```
+
+3. **React Icons**: İkonları əlavə etmək üçün.
+   ```bash
+   npm install react-icons
+   ```
+
+---
+
 ### **Fayllar haqqında Qısa Məlumat** 📝
 - **`index.html`**: Tətbiqin HTML quruluşu.
 - **`package.json`**: Layihənin asılılıqları və konfiqurasiyası.
@@ -58,8 +81,8 @@ Bu əmr tətbiqi `http://localhost:5173/` ünvanında işlədəcək.
 - **`src/main.jsx`**: Tətbiqin giriş nöqtəsi.
 - **`src/components/CurrencyConverter.jsx`**: Valyuta çevirici komponenti.
 
----
 
+---
 
 ### **Tələblər** ⚙️
 Layihə müasir bir brauzer və Node.js tələb edir.
@@ -71,5 +94,3 @@ Hər hansı bir sual və ya tövsiyə üçün mənimlə əlaqə saxlaya bilərsi
 **Email:** developerx73@gmail.com
 
 ---
-
-Bu README.md faylı layihənizi daha aydın başa düşülən edəcək və istifadəçilər üçün faydalı məlumatlar təqdim edəcək. İstədiyiniz zaman bunu öz ehtiyaclarınıza uyğunlaşdıra bilərsiniz!
